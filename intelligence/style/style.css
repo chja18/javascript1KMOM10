@@ -1,224 +1,297 @@
 body {
-    background-color: white;
+  background-color: white;
 }
 
 h1 {
-    text-align: center;
-    color: #2058b4;
-    height: 50px;
+  text-align: center;
+
+  color: #2058b4;
+
+  height: 50px;
 }
 
 h3 {
-    color: #2058b4;
-    text-align: center;
-    padding: 20px;
+  color: #2058b4;
+
+  text-align: center;
+
+  padding: 20px;
 }
 
 p {
-    text-align: center;
-}
-
-.red {
-    background-color: red;
-    opacity: 1;
-    transition: 1s;
-}
-
-.green {
-    background-color: green;
-    opacity: 1;
-    transition: 1s;
+  text-align: center;
 }
 
 .content {
-    background-color: #af8c8c;
-    margin: 0 auto;
-    height: 500px;
-    width: 800px;
+  background-color: #af8c8c;
+
+  margin: 0 auto;
+
+  height: 500px;
+
+  width: 800px;
+
+  border-radius: 15px 100px 50px;
 }
 
 .startButtonTest1 {
-    width: 100px;
-    height: 50px;
-    margin: auto;
+  width: 100px;
+
+  height: 50px;
+
+  margin: auto;
 }
 
 .nextButton {
-    margin-left: 150px;
+  margin-left: 150px;
 }
 
 .nextTest {
-    margin-left: 250px;
+  margin-left: 250px;
 }
 
 .nextTest2 {
-    background-color: #b3f9f8;
-    width: 300px;
+  background-color: #b3f9f8;
+
+  width: 300px;
 }
 
 .nextTest2:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .nextTest3 {
-    background-color: #b3f9f8;
-    width: 300px;
+  background-color: #b3f9f8;
+
+  width: 300px;
 }
 
 .nextTest3:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .scoreDiv {
-    margin-left: 350px;
-    color: #64eab9;
+  margin-left: 350px;
+
+  color: #64eab9;
 }
 
 .Sverige {
-    background-color: #006aa8;
-    position: relative;
-    width: 60px;
-    height: 40px;
-    margin: 30px;
+  background-color: #006aa8;
+
+  position: relative;
+
+  width: 60px;
+
+  height: 40px;
+
+  margin: 30px;
 }
 
 .gulVertikal {
-    position: absolute;
-    left: 24px;
-    width: 10px;
-    height: 40px;
-    background-color: #fecd00;
-    pointer-events: none;
+  position: absolute;
+
+  left: 24px;
+
+  width: 10px;
+
+  height: 40px;
+
+  background-color: #fecd00;
+
+  pointer-events: none;
 }
 
 .gulHorisontell {
-    position: absolute;
-    top: 14px;
-    width: 60px;
-    height: 10px;
-    background-color: #fecd00;
-    pointer-events: none;
+  position: absolute;
+
+  top: 14px;
+
+  width: 60px;
+
+  height: 10px;
+
+  background-color: #fecd00;
+
+  pointer-events: none;
 }
 
 .Holland {
-    background-color: #fff;
-    position: relative;
-    width: 60px;
-    height: 40px;
-    margin: 30px;
+  background-color: #fff;
+
+  position: relative;
+
+  width: 60px;
+
+  height: 40px;
+
+  margin: 30px;
 }
 
 .röd {
-    position: absolute;
-    width: 60px;
-    height: 14px;
-    background-color: #ae1c28;
-    pointer-events: none;
+  position: absolute;
+
+  width: 60px;
+
+  height: 14px;
+
+  background-color: #ae1c28;
+
+  pointer-events: none;
 }
 
 .blå {
-    position: absolute;
-    top: 26px;
-    width: 60px;
-    height: 14px;
-    background-color: #21468b;
-    pointer-events: none;
+  position: absolute;
+
+  top: 26px;
+
+  width: 60px;
+
+  height: 14px;
+
+  background-color: #21468b;
+
+  pointer-events: none;
 }
 
-
 .Danmark {
-    background-color: #fe0000;
-    position: relative;
-    width: 60px;
-    height: 40px;
-    margin: 30px;
+  background-color: #fe0000;
+
+  position: relative;
+
+  width: 60px;
+
+  height: 40px;
+
+  margin: 30px;
 }
 
 .rö {
-    position: absolute;
-    left: 14px;
-    width: 10px;
-    height: 40px;
-    background-color: #fff;
-    pointer-events: none;
+  position: absolute;
+
+  left: 14px;
+
+  width: 10px;
+
+  height: 40px;
+
+  background-color: #fff;
+
+  pointer-events: none;
 }
 
 .hvid {
-    position: absolute;
-    top: 14px;
-    width: 60px;
-    height: 10px;
-    background-color: #fff;
-    pointer-events: none;
+  position: absolute;
+
+  top: 14px;
+
+  width: 60px;
+
+  height: 10px;
+
+  background-color: #fff;
+
+  pointer-events: none;
 }
 
 .Finland {
-    background-color: #fff;
-    position: relative;
-    width: 60px;
-    height: 40px;
-    margin: 30px;
+  background-color: #fff;
+
+  position: relative;
+
+  width: 60px;
+
+  height: 40px;
+
+  margin: 30px;
 }
 
 .blåe {
-    position: absolute;
-    left: 24px;
-    width: 10px;
-    height: 40px;
-    background-color: #309;
-    pointer-events: none;
+  position: absolute;
+
+  left: 24px;
+
+  width: 10px;
+
+  height: 40px;
+
+  background-color: #309;
+
+  pointer-events: none;
 }
 
 .vitt {
-    position: absolute;
-    top: 14px;
-    width: 60px;
-    height: 10px;
-    background-color: #309;
-    pointer-events: none;
+  position: absolute;
+
+  top: 14px;
+
+  width: 60px;
+
+  height: 10px;
+
+  background-color: #309;
+
+  pointer-events: none;
 }
 
 .divForFlags1 {
-    margin-left: 250px;
-    width: 90px;
-    height: 150px;
-    float: left;
+  margin-left: 250px;
+
+  width: 90px;
+
+  height: 150px;
+
+  float: left;
 }
 
 .divForFlags2 {
-    height: 150px;
-    width: 90px;
-    float: left;
+  height: 150px;
+
+  width: 90px;
+
+  float: left;
 }
 
 .divForFlags3 {
-    height: 150px;
-    width: 90px;
-    float: left;
+  height: 150px;
+
+  width: 90px;
+
+  float: left;
 }
 
 .divForList {
-    float: right;
-    margin-right: 100px;
+  float: right;
+
+  margin-right: 100px;
 }
 
 .hide {
-    background-color: grey;
+  background-color: grey;
 }
 
-
 .startButtonTest1 {
-    margin-left: 350px;
+  margin-left: 350px;
 }
 
 .pointer {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .width100 {
-    width: 100px;
+  width: 100px;
 }
 
 .width250 {
-    width: 250px;
+  width: 250px;
+}
+
+.alternative1 {
+  transition: background-color 2s;
+}
+.alternative2 {
+  transition: background-color 2s;
+}
+.alternative3 {
+  transition: background-color 2s;
 }
